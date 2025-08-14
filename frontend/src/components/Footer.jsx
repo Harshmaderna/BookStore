@@ -2,17 +2,17 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mt-20">
+    <div className=" mt-20">
       <hr className="text-gray-300" />
       <footer className="footer footer-horizontal footer-center text-base-content rounded p-10">
-        <nav className="grid grid-flow-col gap-4">
+        <nav className="grid grid-flow-col gap-4 dark:bg-slate-900 dark:text-white">
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
           <a className="link link-hover">Jobs</a>
           <a className="link link-hover">Press kit</a>
         </nav>
         <nav>
-          <div className="grid grid-flow-col gap-4">
+          <div className="grid grid-flow-col gap-4 dark:bg-slate-900 dark:text-white">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
         </nav>
         <aside>
-          <p>
+          <p className="dark:bg-slate-900 dark:text-white">
             Copyright © {new Date().getFullYear()} - All right reserved by ACME
             Industries Ltd
           </p>

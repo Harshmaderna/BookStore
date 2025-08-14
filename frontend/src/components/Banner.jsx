@@ -1,5 +1,5 @@
 import React from "react";
-import photo from '/photo.jpg'  
+import photo from "/photo.jpg";
 
 const Banner = () => {
   return (
@@ -17,7 +17,7 @@ const Banner = () => {
               Quos voluptatem tempore dolor. Culpa veniam eligendi modi et magni
               ex, dicta quod!
             </p>
-             <label className="input validator">
+            <label className="dark:bg-slate-900 dark:text-white border-1 border-gray-400 outline-none  input validator">
               <svg
                 className="h-[1em] opacity-50"
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,13 +34,18 @@ const Banner = () => {
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                 </g>
               </svg>
-              <input className="outline-none border-none"  type="email" placeholder="mail@site.com" required />
+              <input
+                className="outline-none border-none"
+                type="email"
+                placeholder="mail@site.com"
+                required
+              />
             </label>
           </div>
-            <button className="mt-6 btn btn-secondary">Secondary</button>
+          <button className="mt-6 btn btn-secondary font-semibold">Secondary</button>
         </div>
         <div className="w-full md:w-1/2">
-            <img className="md:w-[80%] md:h-[80%] md:mt-20" src={photo} alt="" />
+          <img className="md:w-[80%] md:h-[80%] md:mt-20" src={photo} alt="" />
         </div>
       </div>
     </>

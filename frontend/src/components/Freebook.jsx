@@ -43,7 +43,7 @@ const Freebook = () => {
   };
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
+      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div>
           <h1 className="text-xl font-semibold pb-2 md:mt-20 mt-10">
             Free offered books
@@ -56,7 +56,7 @@ const Freebook = () => {
         </div>
 
         <div>
-          <Slider {...settings}>
+          <Slider  {...settings}>
             {filterData.map((item, idx) => {
               return <Cards item={item} key={idx} />;
             })}
