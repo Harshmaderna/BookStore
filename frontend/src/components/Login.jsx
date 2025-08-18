@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -32,10 +33,12 @@ const Login = () => {
               />
             </div>
             <div className="flex gap-20 mt-6 px-6">
-                <button className="btn btn-success">Login</button>
-              
-                    <p className="mt-2">Not registered? <span className="text-blue-500 cursor-pointer">Signup</span></p>
-               
+              <button className="btn btn-success">Login</button>
+
+              <p className="mt-2">
+                Not registered?{" "}
+                <Link to="/signup" className="text-blue-500 cursor-pointer underline">Signup</Link>
+              </p>
             </div>
           </div>
         </dialog>
