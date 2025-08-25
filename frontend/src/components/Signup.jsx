@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { IoClose } from "react-icons/io5";
 import Login from "./Login";
 
+
 const Signup = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const Signup = () => {
 
             <h1 className="text-3xl font-bold text-center mb-6">Signup</h1>
 
-            <form className="flex flex-col gap-4">
+            <form  className="flex flex-col gap-4">
               <input
                 type="fullname"
                 placeholder="fullname"
@@ -50,7 +51,7 @@ const Signup = () => {
                 </span>
               </p>
                 <Login />
-            </div>
+            </div> 
           </div>
         </div>
       </div>
