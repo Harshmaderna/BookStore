@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import list from "/public/list.json";
 import Cards from "./Cards.jsx";
+import axios from "axios"
 const Freebook = () => {
   const filterData = list.filter((data) => data.category === "free");
 

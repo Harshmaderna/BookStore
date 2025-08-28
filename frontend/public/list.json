@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Story Book",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "price": 0,
+    "price": 1,
     "category": "free",
     "image": "https://img.freepik.com/premium-vector/stack-books-image-stack-books-isolated-education-concept-vector-illustration-generated-ai_118339-5744.jpg" 
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Comedy Book",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "price": 0,
+    "price": 1,
     "category": "free",
     "image": "https://img.freepik.com/premium-vector/stack-books-image-stack-books-isolated-education-concept-vector-illustration-generated-ai_118339-5744.jpg"
   },
